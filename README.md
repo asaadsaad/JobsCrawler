@@ -25,20 +25,21 @@ http://www.mkyong.com/java/how-to-automate-login-a-website-java-example/
 
 5- Parsing each vacancy and collect (Email addresses) OR (Post Information)
 
+6- Apply for Job and save track of applied Jobs in DB
+
+
 sample JSoup XMLHttpRequest with cookies
 
 Document doc = Jsoup.connect(jurl)
-                    .header("Accept","text/html, */*; q=0.01")
-                    .header("Accept-Encoding","gzip,deflate,sdch")
-                    .header("Accept-Language","ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4")
-                    .header("Connection","keep-alive")
-                    .header("Cookie",cookie)
-                    .header("Host","rivalregions.com")
-                    .header("Referer","http://rivalregions.com/")
-                    .header("User-Agent","Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36")
-                    .header("X-Requested-With", "XMLHttpRequest")
-                            //.cookie(genUrl(),cookie)
-                    .get();
-
-6- Apply for Job and save track of applied Jobs in DB
+.header("Accept","text/html, */*; q=0.01")
+.header("Accept-Encoding","gzip,deflate,sdch")
+.header("Accept-Language","ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4")
+.header("Connection","keep-alive")
+.header("Cookie",cookie)
+.header("Host","rivalregions.com")
+.header("Referer","http://rivalregions.com/")
+.header("User-Agent","Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36")
+.header("X-Requested-With", "XMLHttpRequest")
+//.cookie(genUrl(),cookie)
+.get();
 
