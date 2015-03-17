@@ -7,6 +7,8 @@ We will use Strategy Pattern to organize our code, where we will apply different
 
 Dice.com Account: jobscrawlerproject@gmail.com --- Please ask for password!
 
+to login: using POST: https://www.dice.com/dashboard/login with variables(email, password)
+
 URL to call: https://www.dice.com/jobs?q=Java
 
 1- Network Sniffer (Live HTTP Headers): Capture SessionID from header
