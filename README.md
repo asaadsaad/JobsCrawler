@@ -5,6 +5,8 @@ Design Patterns Course Project - Jobs Crawler
 
 Dice.com Account: jobscrawlerproject@gmail.com --- Please ask for password!
 
+URL to call: https://www.dice.com/jobs?q=Java
+
 1- Network Sniffer (Live HTTP Headers): Capture SessionID from header
 
 https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en
