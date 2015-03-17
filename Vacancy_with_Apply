@@ -10,6 +10,7 @@
 </ul>
 </div>
 
+Response Headers
 HTTP/1.1 200 OK
 Vary: Accept-Encoding
 Content-Type: text/html;charset=UTF-8
