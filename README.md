@@ -1,6 +1,8 @@
 # JobsCrawler
 Design Patterns Course Project - Jobs Crawler
 
+We will use Singleton Pattern to Login One Time only and make One Session per website!
+
 We will use Strategy Pattern to organize our code, where we will apply different algorithm (strategy) for each job website, it will be easier in the future to add new algorithms for new website in the future.
 
 0- Create Initial Job Profile (dice.com, careerbuilder.com, monster.com... etc)
