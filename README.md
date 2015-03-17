@@ -3,7 +3,7 @@ Design Patterns Course Project - Jobs Crawler
 
 0- Create Initial Job Profile (dice.com, careerbuilder.com, monster.com... etc)
 
-1- Netowrk Sniffer: Capture SessionID from header
+1- Network Sniffer: Capture SessionID from header
 
 2- Send SessionID in Java with every request (Try to do it Dynamically)
 
