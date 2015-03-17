@@ -5,9 +5,15 @@ Design Patterns Course Project - Jobs Crawler
 
 1- Network Sniffer (Live HTTP Headers): Capture SessionID from header
 
+https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en
+
 2- Send SessionID in Java with every request (Try to do it Dynamically)
 
-3- Send request with .connect() in JSoup
+http://www.mkyong.com/java/how-to-automate-login-a-website-java-example/
+
+3- Send request with .connection() in JSoup
+
+http://jsoup.org/apidocs/org/jsoup/Connection.html
 
 4- Parsing HTML and collecting vacancies
 
