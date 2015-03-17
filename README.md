@@ -9,6 +9,8 @@ https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgb
 
 2- Send SessionID in Java with every request (Try to do it Dynamically)
 
+http://stackoverflow.com/questions/6432970/jsoup-posting-and-cookie
+
 http://stackoverflow.com/questions/7679916/jsoup-connection-with-basic-access-authentication
 
 3- Send request with .connection() in JSoup
@@ -18,6 +20,8 @@ http://jsoup.org/apidocs/org/jsoup/Connection.html
 4- Parsing HTML and collecting vacancies
 
 http://javarevisited.blogspot.com/2014/09/how-to-parse-html-file-in-java-jsoup-example.html
+
+http://blog.tallan.com/2012/07/26/parsing-html-using-jsoup-library/comment-page-1/
 
 http://jsoup.org/cookbook/input/load-document-from-url
 
