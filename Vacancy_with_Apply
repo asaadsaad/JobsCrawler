@@ -1,0 +1,84 @@
+<div class="serp-result-content">
+<h3><a id="position8" class="dice-btn-link" href="https://www.dice.com/jobs/detail/Java-Developer-Princeton-Information-Ltd-New-York-NY-10285/cxprince/15-02649?q=Java&amp;l=New York, NY">Java Developer</a></h3>
+ <ul class="list-inline details">
+	<li class="employer">
+		<span class="icon-building-2"></span>
+		<a id="company8" class="dice-btn-link" href="https://www.dice.com/company/cxprince">Princeton Information Ltd</a>
+	</li>		        						
+	<li class="location"><span class="icon-compass-3"></span>New York, NY</li>
+	<li class="posted"><span class="icon-calendar-2"></span>2 hours ago</li>
+</ul>
+</div>
+
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Content-Type: text/html;charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 17 Mar 2015 18:25:56 GMT
+Transfer-Encoding: chunked
+Content-Language: en-US
+Request Headers
+view source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Content-Length:1565
+Content-Type:multipart/form-data; boundary=----WebKitFormBoundaryqyVMoPODh4BdJVf1
+Cookie:__uvt=; s_campaign=PS_GG_PD_JS_AV_OG; SEM_var=AL!3853!3!37508857294!e!!g!!dice; REL_CODE=1102; s_cpc=0; seekerRefresh=true; mt.t-lbx=-80000000; __gads=ID=97645b70b2c52b65:T=1426606047:S=ALNI_MYNcodkIjZGFiiLoI-FbBn4TX0Ujw; VISIT50322=e8de04c09017a9df5a7dc576f84d2b63; mt.registered=t; __qca=P0-1961700014-1426606137929; 9eb3d8a5651ececea9b569eabb9512bcJavaDeveloperNewYorkNYCapgemini=applied; undefined=applied; 42c8f42ac686ccd42127f16b495e3f51JavaDeveloperNewYorkNYTheMatlenSilverGroupInc=applied; s_nr=1426611390648; 18ce5693258e247d91d230d444739b60JavaArchitectManhattanNYCapgemini=applied; _gat=1; s_lastvisit=1426616570736; MERCURYDCSP=RTjwVLxYm3tG0FG8bxRm1YKLG3k3pKmLL9GQ5c22FJ51RLGK4GX5!-1246315715; K-MERCURYDCSP-embohnii=81564ACD819D3BF18C4EF72D32CC7806; s_ev39=xml%2F4%2Fb%2F4bf13abdfcf65bc80588ff8fc161bf65%40endecaindex; JSESSIONID=291248847E1524F61E180AE437F06F3D.qa1; DLI=s+DstBYWnxhap+PF2ZoBe1SRcse3MwJLAs095FhhLN7RAUiw44LDCJQyME2gBq2H; SKR_ID=8335782; SKR_USER_NAME=jobscrawlerproject@gmail.com; NEW_SESSION=1; _sdsat_Seeker ID=jobscrawlerproject@gmail.com; DGL=%7B%22city%22%3A%22New%20York%22%2C%22state%22%3A%22Iowa%22%2C%22stateCode%22%3A%22NY%22%2C%22zipCode%22%3A%2252556%22%2C%22county%22%3Anull%2C%22country%22%3A%22United%20States%22%2C%22areaCode%22%3Anull%2C%22timeZone%22%3Anull%2C%22latitude%22%3A%2240.7127837%22%2C%22longitude%22%3A%22-74.00594130000002%22%7D; DSB=%7B%22radius%22%3A%2230%22%2C%22sort%22%3A%22date%22%7D; DQS="[{\"q\":\"Java\",\"l\":\"Fairfield\"},{\"q\":\"java\",\"l\":\"New+York%2C+NY\"}]"; _sdsat_Group ID Twitter Card=cxprince; _sdsat_Dice ID=cxprince; _sdsat_Jobid=15-02649; s_getval=cxprince%3A15-02649; _ga=GA1.2.940714879.1426604278; s_dfa=diceprod; s_cc=true; mt.v=2.2083336648.1426604279408; uvts=2pALYCsRFAV9IL5q; s_vi=[CS]v1|2A84209385013106-4000010C600839C7[CE]; _sdsat_Seeker Number=8335782; s_evar16=Data%20Not%20Available; s_evar17=Data%20Not%20Available; s_evar18=Data%20Not%20Available; s_evar19=Repeat; s_lv=1426616709427; s_lv_s=Less%20than%201%20day; s_sq=diceprod%3D%2526pid%253DEasyApply_SelectResume%2526pidt%253D1%2526oid%253DApply%2526oidt%253D3%2526ot%253DSUBMIT
+Host:www.dice.com
+Origin:https://www.dice.com
+Referer:https://www.dice.com/job/apply-with-dice/log-in.html?buttonType=easyApply
+User-Agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Request Payload
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="firstName"
+
+Jobs
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="lastName"
+
+Crawler
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="resumeRadios"
+
+select
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="resumeFile"; filename=""
+Content-Type: application/octet-stream
+
+
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="profileId"
+
+a46381f0363e8a03128163efaec6893d
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="applyMethod"
+
+
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="sourceId"
+
+
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="trackingId"
+
+
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="applicant"
+
+{"peopleId":"8335782","firstName":"Jobs","lastName":"Crawler","email":null,"ipAddress":"69.18.50.2","cookie":"e8de04c09017a9df5a7dc576f84d2b63"}
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="appliedJob"
+
+{"jobId":"a2d301bcc2a574114446a78c24ecf9b2","jobTitle":"Java Developer","location":null,"companyId":"1618"}
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="coverLetterId"
+
+
+------WebKitFormBoundaryqyVMoPODh4BdJVf1
+Content-Disposition: form-data; name="coverLetterText"
+
+
+------WebKitFormBoundaryqyVMoPODh4BdJVf1--
