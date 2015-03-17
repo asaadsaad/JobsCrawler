@@ -3,6 +3,8 @@ Design Patterns Course Project - Jobs Crawler
 
 0- Create Initial Job Profile (dice.com, careerbuilder.com, monster.com... etc)
 
+Dice.com Account: jobscrawlerproject@gmail.com --- Please ask for password!
+
 1- Network Sniffer (Live HTTP Headers): Capture SessionID from header
 
 https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en
