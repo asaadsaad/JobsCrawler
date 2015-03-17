@@ -17,6 +17,8 @@ http://jsoup.org/apidocs/org/jsoup/Connection.html
 
 4- Parsing HTML and collecting vacancies
 
+http://jsoup.org/cookbook/input/load-document-from-url
+
 5- Parsing each vacancy and collect (Email addresses) OR (Post Information)
 
 6- Apply for Job and save track of applied Jobs in DB
