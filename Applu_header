@@ -1,0 +1,76 @@
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Content-Type: text/html;charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 17 Mar 2015 16:57:18 GMT
+Transfer-Encoding: chunked
+Content-Language: en-US
+
+
+Request Headers
+view parsed
+POST /job/apply-with-dice/apply.html HTTP/1.1
+Host: www.dice.com
+Connection: keep-alive
+Content-Length: 1566
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: https://www.dice.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYEn60O4fhKAIPB3R
+Referer: https://www.dice.com/job/apply-with-dice/log-in.html?buttonType=easyApply
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.8
+Cookie: __uvt=; s_campaign=PS_GG_PD_JS_AV_OG; SEM_var=AL!3853!3!37508857294!e!!g!!dice; REL_CODE=1102; s_cpc=0; seekerRefresh=true; mt.t-lbx=-80000000; __gads=ID=97645b70b2c52b65:T=1426606047:S=ALNI_MYNcodkIjZGFiiLoI-FbBn4TX0Ujw; VISIT50322=e8de04c09017a9df5a7dc576f84d2b63; mt.registered=t; __qca=P0-1961700014-1426606137929; JSESSIONID=21BE3E3E36A2C51D4A1011D6DC1DA948.qa1; DLI=s+DstBYWnxhap+PF2ZoBe1SRcse3MwJLAs095FhhLN7RAUiw44LDCJQyME2gBq2H; MERCURYDCSP=fp4tVLWG1BfsfXT1Dn75XdvTxzGxKhTTdwVL9GNDyNmJPnGWT229!-1246315715; SKR_ID=8335782; SKR_USER_NAME=jobscrawlerproject@gmail.com; NEW_SESSION=1; K-MERCURYDCSP-embohnii=81564ACD819D3BF18C4EF72D32CC7806; _sdsat_Seeker ID=jobscrawlerproject@gmail.com; DGL=%7B%22city%22%3A%22New%20York%22%2C%22state%22%3A%22Iowa%22%2C%22stateCode%22%3A%22NY%22%2C%22zipCode%22%3A%2252556%22%2C%22county%22%3Anull%2C%22country%22%3A%22United%20States%22%2C%22areaCode%22%3Anull%2C%22timeZone%22%3Anull%2C%22latitude%22%3A%2240.7127837%22%2C%22longitude%22%3A%22-74.00594130000002%22%7D; DSB=%7B%22radius%22%3A%2230%22%2C%22sort%22%3A%22date%22%7D; s_lastvisit=1426609922160; DQS="[{\"q\":\"Java\",\"l\":\"Fairfield\"},{\"q\":\"java\",\"l\":\"New+York%2C+NY\"}]"; 9eb3d8a5651ececea9b569eabb9512bcJavaDeveloperNewYorkNYCapgemini=applied; _gat=1; undefined=applied; 42c8f42ac686ccd42127f16b495e3f51JavaDeveloperNewYorkNYTheMatlenSilverGroupInc=applied; s_ev39=xml%2F1%2Fc%2F1cb928e9c2e31a11a4fda6feeedd4bde%40endecaindex; _sdsat_Group ID Twitter Card=KANBAY; mt.v=2.2083336648.1426604279408; _sdsat_Dice ID=KANBAY; _sdsat_Jobid=926281; s_getval=KANBAY%3A926281; uvts=2pALYCsRFAV9IL5q; _ga=GA1.2.940714879.1426604278; s_dfa=diceprod; s_cc=true; s_vi=[CS]v1|2A84209385013106-4000010C600839C7[CE]; _sdsat_Seeker Number=8335782; s_evar16=Data%20Not%20Available; s_evar17=Data%20Not%20Available; s_evar18=Data%20Not%20Available; s_nr=1426611390648; s_evar19=New; s_lv=1426611390654; s_lv_s=First%20Visit; s_sq=diceprod%3D%2526pid%253DEasyApply_SelectResume%2526pidt%253D1%2526oid%253DApply%2526oidt%253D3%2526ot%253DSUBMIT
+
+Request Payload
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="firstName"
+
+Jobs
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="lastName"
+
+Crawler
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="resumeRadios"
+
+select
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="resumeFile"; filename=""
+Content-Type: application/octet-stream
+
+
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="profileId"
+
+a46381f0363e8a03128163efaec6893d
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="applyMethod"
+
+
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="sourceId"
+
+
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="trackingId"
+
+
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="applicant"
+
+{"peopleId":"8335782","firstName":"Jobs","lastName":"Crawler","email":null,"ipAddress":"69.18.50.2","cookie":"e8de04c09017a9df5a7dc576f84d2b63"}
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="appliedJob"
+
+{"jobId":"18ce5693258e247d91d230d444739b60","jobTitle":"Java Architect","location":null,"companyId":"90381"}
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="coverLetterId"
+
+
+------WebKitFormBoundaryYEn60O4fhKAIPB3R
+Content-Disposition: form-data; name="coverLetterText"
+
+
+------WebKitFormBoundaryYEn60O4fhKAIPB3R--
