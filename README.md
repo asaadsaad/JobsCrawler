@@ -7,7 +7,9 @@ We will use Strategy Pattern to organize our code, where we will apply different
 
 0- Create Initial Job Profile (dice.com, careerbuilder.com, monster.com... etc)
 
-Dice.com Account: jobscrawlerproject@gmail.com --- Please ask for password!
+Dice.com 
+http://www.cybercoders.com
+Account: jobscrawlerproject@gmail.com --- Please ask for password!
 
 to login: using POST: https://www.dice.com/dashboard/login with variables(email, password)
 
