@@ -5,6 +5,8 @@ We will use Singleton Pattern to Login One Time only and make One Session per we
 
 We will use Strategy Pattern to organize our code, where we will apply different algorithm (strategy) for each job website, it will be easier in the future to add new algorithms for new website in the future.
 
+We will use Iterator Pattern to go through all vacancies collection and parse their data!
+
 0- Create Initial Job Profile (dice.com, careerbuilder.com, monster.com... etc)
 
 Dice.com 
