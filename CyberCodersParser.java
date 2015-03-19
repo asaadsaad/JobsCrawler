@@ -17,9 +17,9 @@ import org.jsoup.select.Elements;
 // http://www.dice.com/job/result/rhalfint/01500-129433
 // http://www.dice.com/job/result/kforcecx/ITDIA1412073
 
-public class DiceParser implements IParser {
-	public static final String URL_PARSE = "https://www.dice.com/jobs";
-	public static final String URL_LOGIN = "https://www.dice.com/dashboard/login";
+public class CyberCodersParser implements IParser {
+	public static final String URL_PARSE = "http://www.cybercoders.com/search/";
+	public static final String URL_LOGIN = "https://www.cybercoders.com/login?returnURL=/";
 	public static final String USERNAME = "jobscrawlerproject@gmail.com";
 	public static final String PASSWORD = "project2015";
 	private Response res;
@@ -32,8 +32,8 @@ public class DiceParser implements IParser {
 
 		// PARSING
 		// Keep logged in
-		cookies = res.cookies();
-		String encodedUrl = url + "?q=" + URLEncoder.encode(search) + "&l=" + URLEncoder.encode(location);
+//		cookies = res.cookies();
+		String encodedUrl = url + "?searchterms=" + URLEncoder.encode(search) + "&searchlocation=" + URLEncoder.encode(location);
 		Document doc;
 
 		doc = this.NavigateTo(encodedUrl);
@@ -62,7 +62,7 @@ public class DiceParser implements IParser {
 	}
 
 	private void GetVacancyData(List<JobVacancy> vacancies) {
-		System.out.println("==== Get Vacancy data for Dice.com ====");
+		System.out.println("==== Get Vacancy data for CyberCoders.com ====");
 
 		for (JobVacancy vacancy : vacancies) {
 			System.out.println("Vacancy " + vacancies.indexOf(vacancy));
@@ -208,9 +208,9 @@ public class DiceParser implements IParser {
 					.data("email", username).data("password", password)
 					.method(Method.POST).execute();
 
-			String sessionId = res.cookie("JSESSIONID");
+			this.cookies = res.cookies();
 
-			System.out.println(sessionId);
+			System.out.println(cookies);
 
 			return (res == null ? false : true);
 
@@ -222,3 +222,4 @@ public class DiceParser implements IParser {
 	}
 
 }
+
