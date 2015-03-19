@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data1 = new google.visualization.DataTable();
+        data1.addColumn('string', 'Topping');
+        data1.addColumn('number', 'Slices');
+        data1.addRows([
+//location data beginning
+['New York', 6],['Troy, NY', 1],['New York City, NY', 10],['Brooklyn, NY', 1],['Manhattan, NY', 2]
+//location data ending
+        ]);
+		// Create the data table.
+        var data2 = new google.visualization.DataTable();
+        data2.addColumn('string', 'Topping');
+        data2.addColumn('number', 'Slices');
+        data2.addRows([
+//salary data beginning
+['$140k', 2],['$130k', 4],['$300k', 1],['$200k', 1],['Unspecified', 1],['$275k', 1],['$110k', 4],['$90k', 1],['$150k', 2],['$500k', 1],['$120k', 2]
+//salary data ending
+        ]);
+		
+		// Create the data table.
+        var data3 = new google.visualization.DataTable();
+        data3.addColumn('string', 'Topping');
+        data3.addColumn('number', 'Slices');
+        data3.addRows([
+//title data beginning
+['Java Engineer', 1],['Senior Java Connectivity Developer', 1],['Java Architect', 1],['JavaScript Developer - HTML5, CSS3', 1],['Junior Java Developer', 1],['Senior Java Engineer', 1],['JavaScript Engineer - Remote/ Telecommute 100%', 1],['Java Developer - Mid-Senior Level', 1],['Sr. Java / J2EE Developer', 1],['Lead Java Developer - Contract', 1],['JavaScript Developer', 2],['Senior Java Developer', 2],['Java Developer', 4],['Lead Java Scala Engineer', 1],['Java Expert', 1]
+//title data ending
+        ]);
+
+        // Set chart options
+        var options1 = {'title':'Position Location statistics',
+                       'width':400,
+                       'height':300};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart1 = new google.visualization.PieChart(document.getElementById('lchart_div'));
+        chart1.draw(data1, options1);
+		
+		 // Set chart options
+        var options2 = {'title':'Position Salary statistics',
+                       'width':400,
+                       'height':300};
+
+		 var chart2 = new google.visualization.PieChart(document.getElementById('schart_div'));
+        chart2.draw(data2, options2);
+		
+		 // Set chart options
+        var options3 = {'title':'Position Title statistics',
+                       'width':400,
+                       'height':300};
+
+		 var chart3 = new google.visualization.PieChart(document.getElementById('cchart_div'));
+        chart3.draw(data3, options3);
+      }
+    </script>
+	
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="lchart_div"></div>
+	 <div id="schart_div"></div>
+	  <div id="cchart_div"></div>  
+	 
+</div>
+  </body>
+</html>
